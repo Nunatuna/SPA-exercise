@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="js/script.js" type="module"></script>
+    <title>T. W. Lind</title>
+</head>
+<body>
+
+    <!-- ########## NAVIGATION ########## -->
+    <header class="header_nav">
+        <div>
+            <img src="img/lind.png" alt="">
+            <div>
+                <h1>Tristan Wede Lind</h1>
+                <h2>Web Developer and Author</h2>
+            </div>
+            <div>
+                <select name="" id="">
+                    <option value="">EN</option>
+                    <option value="">DK</option>
+                </select>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" data-page="page-home" data-title="Home" title="Home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#" data-page="page-tour" data-title="On Tour" title="On Tour">On Tour</a>
+                </li>
+                <li>
+                    <a href="#" data-page="page-books" data-title="Books" title="Books">Books</a>
+                </li>
+                <li>
+                    <a href="#" data-page="page-contact" data-title="Contact" title="Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ########## HOME PAGE ########## -->
+
+        <div id="page-home" class="page hidden">
+            <section>
+                <article class="new_release">
+                    <div>
+                        <h2>NEW RELEASE</h2>
+                        <h3>Advanced PHP: From Zero to Hero</h3>
+                        <p>&copy; 2023 EK Publishing</p>
+                    </div>
+                    <img src="img/book_php_preview.png" alt="">
+                </article>
+
+                <article class="bio">
+                    <div>
+                        <p>A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web development, captivating audiences worldwide with his profound knowledge of various technologies and methodologies. With a career spanning over two decades, Lind has honed his skills working for industry giants, where he contributed to cutting-edge projects that pushed the boundaries of web development.</p>
+                        <p>Lind's latest achievements showcase his commitment to advancing the field. Through meticulous research and hands-on experience, he has developed novel approaches to web design, user experience optimization, and responsive development, ensuring that websites and applications deliver immersive and intuitive experiences across devices.</p>
+                        <p>As an accomplished author, Lind has authored numerous critically acclaimed books that serve as essential guides for aspiring web developers and industry professionals alike. His publications, revered for their clarity, depth, and practicality, have garnered widespread acclaim and have been translated into multiple languages, solidifying his reputation as an influential figure in the global web development community.</p>
+                        <div class="bio_quote">
+                            <q>Tristan Wede Lind's books on web development are an invaluable resource for both novices and seasoned professionals. His comprehensive yet accessible approach demystifies complex concepts, providing practical guidance that translates directly into real-world success. Lind's expertise shines through in every page, making his works an indispensable addition to any developer's library.</q>
+                            <p>The Tech Tribune</p>
+                        </div>
+                        <p>In addition to his professional accomplishments, Lind is known for his dedication to sharing his expertise through conferences, workshops, and online platforms. As a sought-after speaker, he has enlightened audiences with his insightful talks, empowering developers to embrace emerging technologies and adapt to the ever-evolving digital landscape.</p>
+                    </div>
+                    <div class="books">
+                        <div>
+                            <img src="img/book_css.png" alt="">
+                            <h3>CSS for Developers</h3>
+                            <p>A Visual Journey</p>
+                            <p>2022</p>
+                        </div>
+                        <div>
+                            <img src="img/book_js.png" alt="">
+                            <h3>Advanced Javascript</h3>
+                            <p>Frameworkless</p>
+                            <p>2021</p>
+                        </div>
+                    </div>
+                    <div class="books_two">
+                        <div>
+                            <img src="img/book_html.png" alt="">
+                            <h3>Semantic HTML</h3>
+                            <p>Foundation of the web</p>
+                            <p>2019</p>
+                        </div>
+                        <div>
+                            <img src="img/book_js_basic.png" alt="">
+                            <h3>Basic Programming</h3>
+                            <p>Algorithms and Beyond</p>
+                            <p>2017</p>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+
+        <!-- ########## ON TOUR PAGE ########## -->
+
+        <div id="page-tour" class="page hidden">
+            <section>
+                <header>
+                    <h2>On Tour</h2>
+                </header>
+                <img src="img/tristan_640.jpg" alt="">
+                <article class="tour_dates">
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2023, December 6-8</p>
+                        </div>
+                        <p class="subject">WebTech Summit</p>
+                        <p class="title">Keynote Speaker</p>
+                        <p class="location">San Francisco, CA</p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2023, December 12</p>
+                        </div>
+                        <p class="subject">Workshop "Responsive Design Strategies for Modern Websites"</p>
+                        <!-- <p class="title">Keynote Speaker</p> -->
+                        <p class="location">Copenhagen, Denmark <span>(TBD)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 7-8</p>
+                        </div>
+                        <p class="subject">Developer's Paradise Conference</p>
+                        <p class="title">Panelist</p>
+                        <p class="location">Miami, FL <span>(Miami Convention Center)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 22-23</p>
+                        </div>
+                        <p class="subject">CodeCraft Workshop</p>
+                        <p class="title">Guest Instructor</p>
+                        <p class="location">New York City, NY <span>(TBD)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 22-23</p>
+                        </div>
+                        <p class="subject">CodeCraft Workshop</p>
+                        <p class="title">Guest Instructor</p>
+                        <p class="location">New York City, NY <span>(TBD)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 22-23</p>
+                        </div>
+                        <p class="subject">CodeCraft Workshop</p>
+                        <p class="title">Guest Instructor</p>
+                        <p class="location">New York City, NY <span>(TBD)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 22-23</p>
+                        </div>
+                        <p class="subject">CodeCraft Workshop</p>
+                        <p class="title">Guest Instructor</p>
+                        <p class="location">New York City, NY <span>(TBD)</span></p>
+                    </div>
+                    <div class="tour_card">
+                        <div class="date">
+                            <span class="material-symbols-rounded">mic_external_on</span>
+                            <p>2024, January 22-23</p>
+                        </div>
+                        <p class="subject">CodeCraft Workshop</p>
+                        <p class="title">Guest Instructor</p>
+                        <p class="location">New York City, NY <span>(TBD)</span></p>
+                    </div>
+                </article>
+                <a href="#page-tour"><span class="material-symbols-rounded">arrow_warm_up</span></a>
+            </section>
+        </div>
+
+        <!-- ########## BOOKS PAGE ########## -->
+
+        <div id="page-books" class="page">
+            <section>
+                <header>
+                    <h2>Books</h2>
+                </header>
+                <div class="books_container">
+                    <article class="books_card">
+                        <img src="img/book_php.png" alt="">
+                        <div>
+                            <div>
+                                <h3>Advanced PHP</h3>
+                                <span>From Zero to Hero (2023)</span>
+                            </div>
+                            <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP programming. With meticulous detail, Lind guides readers through advanced concepts, empowering them to master complex topics such as object-oriented programming, database integration, and secure web application development. This comprehensive guide is a must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.</p>
+                        </div>
+                    </article>
+
+                    <article class="books_card">
+                        <img src="img/book_css.png" alt="">
+                        <div>
+                            <div>
+                                <h3>CSS for Developers</h3>
+                                <span>A Visual Journey (2022)</span>
+                            </div>
+                            <p>This work offers an immersive exploration of CSS that transcends mere syntax. Through vivid illustrations and practical examples, Lind demystifies the intricacies of CSS, equipping developers with the tools to craft stunning, responsive designs. This visual masterpiece is an indispensable companion for developers seeking to elevate their CSS skills and create visually captivating websites.</p>
+                        </div>
+                    </article>
+
+                    <article class="books_card">
+                        <img src="img/book_js.png" alt="">
+                        <div>
+                            <div>
+                                <h3>Advanced JavaScript</h3>
+                                <span>Frameworkless  (2021)</span>
+                            </div>
+                            <p>In "Advanced JavaScript: Frameworkless," Tristan Wede Lind revolutionizes the approach to JavaScript development. Breaking free from the confines of frameworks, Lind delves into the core principles and advanced techniques that empower developers to create robust, scalable, and framework-independent JavaScript applications. This essential guide unveils the true potential of JavaScript, transforming developers into true masters of the language.<div>
+                        </div>
+                    </article>
+                    
+                    <article class="books_card">
+                        <img src="img/book_programming.png" alt="">
+                        <div>
+                            <div>
+                                <h3>Basic Programming</h3>
+                                <span>Algorithms and Beyond  (2017)</span>
+                            </div>
+                            <p>A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey.</p>
+                        </div>
+                    </article>
+                </div>
+                <a href="#page-books"><span class="material-symbols-rounded">arrow_warm_up</span></a>
+            </section>
+        </div>
+
+        <!-- ########## CONTACT PAGE ########## -->
+
+        <div id="page-contact" class="page hidden">
+            <section>
+                <header class="header">
+                    <h2>Contact</h2>
+                </header>
+
+                <article class="contact_card publishing">
+                    <img src="img/victoria.png" alt="">
+                    <div>
+                        <h3>Publishing</h3>
+                        <p>Victoria Marsh (Editor)</p>
+                        <a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a>
+                        <a href="tel:(+44) 079 7502 0028"><span>Phone </span>(+44) 079 7502 0028</a>
+                    </div>
+                </article>
+
+                <article class="contact_card booking">
+                    <img src="img/elly.png" alt="">
+                    <div>
+                        <h3>Booking</h3>
+                        <p>Elly Houthuijzen (Agent)</p>
+                        <a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com<a>
+                        <a href="tel:(+31) 06-42821232"><span>Phone </span>(+31) 06-42821232</a>
+                    </div>
+                </article>
+
+                <div class="form">
+                    <form>
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" type="email">
+                        </div>
+                        <div>
+                            <label for="enquiry">Enquiry</label>
+                            <textarea id="enquiry"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <img class="img" src="img/conference.jpg" alt="">
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>
